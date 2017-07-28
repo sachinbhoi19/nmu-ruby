@@ -1,0 +1,41 @@
+
+<%= form_for :info, url: webforms_path do |f| %>
+  <p>
+    <%= f.label :'full name' %><br>
+    <%= f.text_field :sname validates :body, presence: true, allow_blank: false%>
+  </p>
+ <p>
+   <%= f.label :'class' %><br>
+    <%= f.text_field :sclass %>
+</p>
+<p>
+   <%= f.label :'EmailID' %><br>
+    <%= f.text_field :semail %>
+</p>
+
+<p>
+   <%= f.label :'Contact No' %><br>
+    <%= f.text_field :scontact %>
+</p>
+
+
+<p>
+   <%= f.label :'Address' %><br>
+    <%= f.text_area :sadd %>
+</p>
+ 
+ 
+  <p>
+    
+
+<%= submit_tag "Clear form", :class => 'inputsubmit', :type => 'reset'%>
+
+<%= f.submit %> 
+  </p>
+
+<% end %>
+
+
+
+
+

@@ -1,0 +1,27 @@
+<%= form_for :show do |f| %>
+<h1>hello</h1>
+<p>
+  <strong>Name:</strong>
+  <%= @variable[:sname]%>
+</p>
+<p>
+<strong>Class:</strong>
+<%= @variable[:sclass]%>
+</p>
+<p>
+<strong>Email-ID:</strong>
+<%= @variable[:semail]%>
+</p>
+<p>
+<strong>Contact No.:</strong>
+<%= @variable[:scontact]%>
+</p>
+<p>
+<strong>Address:</strong>
+<%= @variable[:sadd]%>
+
+</p>
+<%= button_to "New",action:"new" %>
+<%= button_to "New Post", { :action => "new" }, :method => :get %>
+
+<% end %>
