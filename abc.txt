@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 hello i am sachin
+=======
+hi hello friend
+
+>>>>>>> 143ed3c90411b3724bdcf5848eb7e68a518a9feb
 

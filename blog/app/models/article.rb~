@@ -1,5 +1,9 @@
 class Article < ApplicationRecord
   has_many :comments
+<<<<<<< HEAD
 validates :title, presence: true,
+=======
+  validates :title, presence: true,
+>>>>>>> 143ed3c90411b3724bdcf5848eb7e68a518a9feb
                     length: { minimum: 5 }
 end

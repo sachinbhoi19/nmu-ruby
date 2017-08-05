@@ -1,4 +1,4 @@
-puts "Create a Hash using both Ruby syntax styles."
+puts "8.Create a Hash using both Ruby syntax styles."
 h1={a:1,b:22,c:33,d:44}
 puts h1
 

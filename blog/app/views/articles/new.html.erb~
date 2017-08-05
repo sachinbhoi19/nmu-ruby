@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 <h1>New article</h1>
  
+=======
+<h1>New Article</h1>
+>>>>>>> 143ed3c90411b3724bdcf5848eb7e68a518a9feb
 <%= render 'form' %>
  
 <%= link_to 'Back', articles_path %>
@@ -36,4 +40,8 @@
  
 <% end %>
  
+<<<<<<< HEAD
 
+=======
+<%= link_to 'Back', articles_path %>
+>>>>>>> 143ed3c90411b3724bdcf5848eb7e68a518a9feb
